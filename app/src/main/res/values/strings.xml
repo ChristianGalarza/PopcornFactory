@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">PopcornFactory</string>
+    <string name="welcome">Welcome to Popcorn Factory, home of the best series and movies. Just lay down, make some popcorn and enjoy!</string>
     <string name="movies">Movies</string>
     <string name="series">Series</string>
+    <string name="get_me_in">GET ME IN!</string>
+
+    <!--fonts family -->
+    <string name="condensed">sans-serif-bold-condensed</string>
 </resources>

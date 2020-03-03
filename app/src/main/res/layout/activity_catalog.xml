@@ -5,14 +5,75 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".CatalogActivity">
+    tools:context=".CatalogActivity"
+    android:padding="15dp"
+    android:background="@color/fondo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@string/condensed"
+            android:layout_gravity="center_horizontal"
+            android:paddingHorizontal="15dp"
+            android:text="@string/series"
+            android:textColor="@color/colorBoton"
+            android:textSize="30dp"
+        />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button"
+        />
+    </LinearLayout>
+
+
+
+    <GridView
+        android:id="@+id/serie_catalog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="3"
+        android:paddingHorizontal="10dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="43dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="3dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@string/condensed"
+            android:layout_gravity="center_horizontal"
+            android:paddingHorizontal="15dp"
+            android:text="@string/movies"
+            android:textColor="@color/colorBoton"
+            android:textSize="30dp"
+            />
+
+
+    </LinearLayout>
 
     <GridView
         android:id="@+id/movies_catalog"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:numColumns="3"
-        android:paddingHorizontal="4dp"/>
+        android:columnWidth="85dp"
+        android:paddingHorizontal="10dp"/>
 
 
 
